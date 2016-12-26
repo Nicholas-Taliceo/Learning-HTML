@@ -3,4 +3,5 @@ This repository contains the materials associated with my learning and understan
 
 # Website Link
 The following is the link to the output website:
-<a href="https://nicholas-taliceo.github.io/Learning-HTML/">Nick's HTML Website</a>
+
+<a href="https://nicholas-taliceo.github.io/Learning-HTML/" target="_blank">Nick's HTML Website</a>
