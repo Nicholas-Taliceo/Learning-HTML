@@ -1,5 +1,18 @@
+#header {
+  z-index: 1;
+  position: fixed;
+  width: 97.5%;
+  margin-top: -20px;
+  height: 60px;
+  background-color: #668284;
+  margin-bottom: 10px;
+}
+
 #title {
+  float: left;
+  margin-left: 5px;
+  padding-top: 5px;
+  font-size: 16px;
   font-family: Verdana, sans-serif;
-  color: black;
-  text-align: center;
+  color: #ffffff;
 }
