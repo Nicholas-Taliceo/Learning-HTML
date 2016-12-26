@@ -1,4 +1,4 @@
-# learning-html
+# Learning-HTML
 This repository contains the materials associated with my learning and understanding of HTML/CSS.
 
 # Website Link
