@@ -4,7 +4,8 @@ div {
 
 #header {
   z-index: 1;
-  position: relative;
+  position: fixed;
+  width: 97.8%;
   margin-top: -20px;
   height: 60px;
   background-color: #668284;
