@@ -12,3 +12,7 @@ The following is the link to the output website:
 - index.html
 - README.md
 - stylesheet.css
+
+## info
+
+## tutorials
