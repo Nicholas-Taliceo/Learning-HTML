@@ -9,7 +9,7 @@ The following is the link to the output website:
 # Contents
 
 ## Main Folder
-- index.html
+- [index.html](index.html)
 - README.md
 - stylesheet.css
 
