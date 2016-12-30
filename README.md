@@ -9,9 +9,10 @@ The following is the link to the output website:
 # Contents
 
 ## Main Folder
-- [index.html](index.html)
-- README.md
-- stylesheet.css
+The main folder (called Learning-HTML) contains the main files associated with the website as well as the relevant folders that contain the additional webpages.  The following documents are in the main folder.
+* [index.html](index.html)--This is the main file that contains the essential code for the website to run.  This is the **main** file.
+* [README.md](README.md)--This file! It describes the details of this repository.
+* [stylesheet.css](stylesheet.css)--This is the file that contains the CSS styling code for [index.html](index.html).
 
 ## info
 
