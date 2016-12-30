@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
     <title>Nick's HTML</title>
+    <style type="text/css" media="screen">
+      #editor {
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        bottom: 20px;
+        left: 20px;
+        height: auto;
+      }
+    </style>
   </head>
-  <body>
+  <body id="tutorials">
     <div id="header">
       <p id="title"><a href="../index.html">Nick's HTML/CSS Website</a></p>
       <a href="mailto:ntaliceo@gmail.com"><p id="email">Email Me!</p></a>
@@ -20,14 +30,21 @@
       </div>
       <div class="middle"></div>
       <div class="right">
-        <h4>Tutorials</h4>
-        <p> This page contains larger tutorials that are offered on the web.  The tutorials that I will post here are open-source (or at least have free components that have purchase options).
-        </p>
-        <ul>
-          <li> <a href="https://www.codecademy.com/learn/web" target="_blank" class="parlink">Codecademy</a> -- Provides a good starting point when learning HTML/CSS.  This is where I started!</li>
-          <li><a href="https://www.tutorialspoint.com/html/" target="_blank" class="parlink">tutorialspoint</a> -- This website provides very strong basic understanding of essential concepts of HTML.  The tutorials are task-specific and are concise.</li>
-          <li><a href="https://www.sitepoint.com/html-css-beginners-guide/" target="_blank" class="parlink">sitepoint (HTML/CSS Beginner's Guide)</a> -- This seems to be a good guide and tutorial website for those who have never used HTML in the past.</li>
-        </ul>
+        <h4>HTML Editor</h4>
+        <p>This is an HTML editor provided by <a href="https://ace.c9.io/#nav=about" target="_blank" class="parlink">Ace Code Editor</a>.</p>
+        <div id="editor">&lt!DOCTYPE html>
+&lthtml lang="en">
+  &lthead>
+    &lttitle>&lt/title>
+  &lt/head>
+  &ltbody>&lt/body>
+&lt/html></div>
+        <script src="../ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+          var editor = ace.edit("editor");
+          editor.setTheme("ace/theme/monokai");
+          editor.getSession().setMode("ace/mode/html");
+        </script>
       </div>
     </div>
     <div class="footer">
