@@ -14,10 +14,12 @@ The main folder (called Learning-HTML) contains the main files associated with t
 * [README.md](README.md)--This file! It describes the details of this repository.
 * [stylesheet.css](stylesheet.css)--This is the file that contains the CSS styling code for [index.html](index.html).
 
+## Additional Webpages
 Each of the following folders predominantley contain two files:
+
 1. folder_name.html--The HTML document that supports that specific web page, and,
 2. stylesheet.css--The CSS document that allows for that webpage's specific formatting.  Since I am using the same formatting and styling for the *entire* website, the CSS documents are essentially copies of the main [stylesheet.css](stylesheet.css) in the main folder.
 
-## info
+### info
 
-## tutorials
+### tutorials
