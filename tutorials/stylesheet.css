@@ -2,7 +2,7 @@ div {
   border-radius: 5px;
 }
 
-/* Left margin links styling (box only). */
+/* .links id refers to the left margin links styling (box only). */
 .links {
   height: 30px;
   width: 80%;
@@ -17,7 +17,6 @@ div {
   justify-content: center;
   background-color: #F4EBC3;
 }
-
 /* Left margin link styling (text). */
 a.links {
   text-decoration: none;
@@ -83,25 +82,40 @@ h4 {
   color: #000000;
 }
 
+li {
+  margin: 0 0 6px 0;
+}
+
+/* General link styling. */
 a {
   text-decoration: none;
 }
-
+/* Bold when hovering over the link. */
 a:hover {
   font-weight: bold;
 }
-
+/* Do not change the color after visiting the link. */
 a:visited {
   text-decoration: none;
 }
 
 /* Link styles for links within paragraphs. */
-a.parLink {
-  color: black;
-  font-style: oblique;
+a.parlink {
+  color: #668284;
+  font-style: none;
   text-decoration: underline;
 }
+/* Paragraph links bold when hovering over the link. */
+a.parlink:hover {
+  font-weight: bold;
+}
+/* Keep the color of link the same after clicking on it. */
+a.parlink:visited {
+  text-decoration: none;
+}
 
+/* .main allows the .left column have the same adjusted height as the .right
+   column. */
 .main {
   display: flex;
   position: relative;
@@ -117,6 +131,7 @@ a.parLink {
   margin-bottom: 10px;
 }
 
+/* Creates the middle gap between .left and .right. */
 .middle {
   width: 2%;
 }
