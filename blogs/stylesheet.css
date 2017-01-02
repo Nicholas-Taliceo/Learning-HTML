@@ -66,6 +66,12 @@ h4 {
   font-family: Verdana, sans-serif;
 }
 
+h5 {
+  font-family: Verdana, sans-serif;
+  font-family: 14px;
+  text-align: center;
+}
+
 .right p {
   margin-left: 5px;
   margin-right: 5px;
